@@ -9,7 +9,6 @@ body{
 }
 
 .calc{
-   
     color: white;
     margin: 10% 35%;
     background-color: rgb(89, 101, 101);
@@ -18,11 +17,6 @@ body{
     font-family:Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-size: 24px;
-}
-
-div{
-    border: solid;
-    border: 10px;
 }
 
 .scrn{
@@ -49,7 +43,9 @@ div{
     grid-row-end: 1;
     grid-column-start: 1;
     grid-column-end: 3;
-    padding-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .plus{
@@ -57,14 +53,36 @@ div{
     grid-column-end: 4;
     grid-row-start: 3;
     grid-row-end: 5;
-    padding-top: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .eq{
     background-color: orange;
-    padding-top: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .row{
-    padding-top: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row:hover{ 
+    background-color: black;
+}
+
+.rowc:hover{ 
+    background-color: coral;
+}
+
+.eq:hover{ 
+    background-color: chocolate;
+}
+
+.plus:hover{
+    background-color: black;
 }
